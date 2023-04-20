@@ -55,5 +55,13 @@ public class CanvasController {
         modelMap.addAttribute("dataPointsList", canvasjsDataList);
         return "chart/chartAnimation";
     }
+    
+    @RequestMapping(value = "/testview", method = RequestMethod.GET)
+    public String testview(ModelMap modelMap) {
+//        List<List<Map<Object, Object>>> canvasjsDataList = canvasjsChartService.getCanvasjsChartData();
+//        List<List<Map<Object, Object>>> canvasjsDataList = CanvasDataAnimation.getCanvasjsDataListAnimation();
+//        modelMap.addAttribute("dataPointsList", canvasjsDataList);
+        return "chart/testview";
+    }
 
 }

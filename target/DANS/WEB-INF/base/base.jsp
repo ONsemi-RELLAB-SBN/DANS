@@ -82,7 +82,7 @@
             <header class="navbar" id="header-navbar">
                 <div class="container">
                     <a href="${contextPath}/" id="logo" class="navbar-brand col-md-6 col-sm-6 col-xs-12">
-                        <span>DAQ Analysis System (DANS) - base</span>
+                        <span>DAQ Analysis System (DANS)</span>
                     </a>
                     <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button">
                         <span class="sr-only">Toggle navigation</span>

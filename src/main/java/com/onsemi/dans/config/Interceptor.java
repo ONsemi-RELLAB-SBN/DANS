@@ -90,6 +90,7 @@ public class Interceptor implements HandlerInterceptor {
 //        return user;
 
 //LDAP User Session
+        LOGGER.info("DATA MASUK DEKAT SINI  >>>>>> " + auth.getName());
         LDAPUserDAO ldapUserDAO = new LDAPUserDAO();
         LDAPUser ldapUser = ldapUserDAO.getByLoginId(auth.getName());
 
